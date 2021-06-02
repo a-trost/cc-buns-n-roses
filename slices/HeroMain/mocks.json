@@ -1,0 +1,22 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "HeroMain",
+    "primary": {
+      "heading": "repurpose world-class e-tailers",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Ullamco non esse tempor pariatur consectetur culpa consequat non do. Incididunt et sit est. Veniam Lorem pariatur tempor aliquip occaecat sit.",
+          "spans": []
+        }
+      ],
+      "buttonText": "brand viral e-markets"
+    },
+    "items": [],
+    "slice_type": "hero_main"
+  }
+]

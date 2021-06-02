@@ -1,0 +1,33 @@
+@import "../../styles/screens.scss";
+
+.colorFamily {
+  display: flex;
+  align-items: center;
+}
+
+.colorFamily .colorGrid {
+  display: grid;
+  gap: var(--space-3xs);
+  grid-template-columns: repeat(10, 1fr);
+  @media (max-width: $screen-lg) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  @media (max-width: $screen-sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.colorLabel {
+  @extend .h5 !optional;
+  width: var(--space-3xl);
+  text-transform: capitalize;
+}
+
+.swatch {
+  width: var(--space-xl);
+  height: var(--space-lg);
+  background: var(--color);
+  border-radius: var(--space-3xs);
+  margin-right: var(--space-3xs);
+}

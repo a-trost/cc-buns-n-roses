@@ -1,0 +1,51 @@
+@import "./screens.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns:
+    1fr
+    min(1080px, 100%)
+    1fr;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.wrapper > * {
+  grid-column: 2;
+
+  @media (max-width: $screen-lg) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.full-bleed {
+  width: 100%;
+  grid-column: 1 / -1;
+}

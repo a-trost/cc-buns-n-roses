@@ -1,0 +1,18 @@
+{
+  "HeroMain": {
+    "primary": {
+      "heading": {
+        "content": null
+      },
+      "buttonText": {
+        "content": null
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  }
+}
