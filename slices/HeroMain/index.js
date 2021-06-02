@@ -19,7 +19,7 @@ const MySlice = ({ slice }) => (
         </div>
       </div>
       <div className="w-5/6 lg:max-w-2xl lg:w-full md:w-1/2">
-        <HeroImage />
+        <img src={slice.primary.image.url} alt={slice.primary.image.alt} />
       </div>
     </div>
   </section>
