@@ -1,6 +1,8 @@
 {
   "apiEndpoint": "https://cc-buns-n-roses.cdn.prismic.io/api/v2",
   "libraries": [
-    "essential-slices"
-  ]
+    "@/slices"
+  ],
+  "_latest": "0.0.45",
+  "storybook": "http://localhost:8888"
 }
