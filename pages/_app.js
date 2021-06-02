@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         {/* <link rel="shortcut icon" href="/bouncy-logo.svg" /> */}
-        <title>Grim Reaper's Used Cars - A Component Carousel Site</title>
+        <title>Buns 'N Roses - A Component Carousel Site</title>
       </Head>
       <Component {...pageProps} />
     </>

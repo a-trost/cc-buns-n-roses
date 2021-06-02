@@ -6,7 +6,7 @@ export default function Navigation() {
       <div className="container flex flex-col flex-wrap items-center max-w-screen-xl p-5 mx-auto md:flex-row">
         <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
           <span className="ml-3 text-3xl text-red-800 font-display">
-            Grim Reaper's Used Cars
+            Buns 'N Roses
           </span>
         </a>
         <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto">
@@ -15,7 +15,7 @@ export default function Navigation() {
           <a className="mr-5 text-red-600 hover:text-red-900">Share</a>
           <a className="mr-5 text-red-600 hover:text-red-900">Testimonials</a>
           <a
-            href="https://github.com/a-trost/cc-grim-reaper"
+            href="https://github.com/a-trost/cc-buns-n-roses"
             className="mr-5 text-red-600 hover:text-red-900"
           >
             Github Repo

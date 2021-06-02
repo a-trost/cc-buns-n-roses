@@ -6,11 +6,11 @@ export default function Footer() {
       <div className="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
         <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
           <span className="ml-3 text-2xl text-red-800 font-display">
-            Grim Reaper's Used Cars
+            Buns 'N Roses
           </span>
         </a>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0">
-          © 2021 Grim Reaper's Used Cars —
+          © 2021 Buns 'N Roses —
           <a
             href="https://frontend.horse/show/component-carousel"
             className="ml-1 text-gray-600"

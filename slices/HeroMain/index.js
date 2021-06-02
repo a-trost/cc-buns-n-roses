@@ -1,6 +1,5 @@
 import React from "react";
 import { RichText } from "prismic-reactjs";
-import HeroImage from "../../components/HeroImage";
 
 const MySlice = ({ slice }) => (
   <section className="text-gray-600 body-font">
