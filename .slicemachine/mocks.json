@@ -14,5 +14,12 @@
         }
       }
     }
+  },
+  "BurgerMaker": {
+    "primary": {
+      "heading": {
+        "content": null
+      }
+    }
   }
 }

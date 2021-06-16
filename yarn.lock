@@ -7170,6 +7170,11 @@ markdown-to-jsx@^7.1.0:
   resolved "https://registry.yarnpkg.com/markdown-to-jsx/-/markdown-to-jsx-7.1.2.tgz#19d3da4cd8864045cdd13a0d179147fbd6a088d4"
   integrity sha512-O8DMCl32V34RrD+ZHxcAPc2+kYytuDIoQYjY36RVdsLK7uHjgNVvFec4yv0X6LgB4YEZgSvK5QtFi5YVqEpoMA==
 
+matter-js@^0.17.1:
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/matter-js/-/matter-js-0.17.1.tgz#b30ac4c708116258fbcaacd2efd8a94e34a91c7f"
+  integrity sha512-pSquoENJgvSAlQGcA0s5UkmEohGXZaUww2g3B6qG87x0iEcVf+aigMXn5UkFPdnh6w3B+C4vXSLaYqhHwKrOLA==
+
 max-safe-int@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/max-safe-int/-/max-safe-int-1.0.0.tgz"
