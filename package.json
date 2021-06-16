@@ -45,7 +45,7 @@
     "postcss": "^7",
     "sass-loader": "10.1.1",
     "shx": "^0.3.3",
-    "slice-machine-ui": "^0.0.45",
+    "slice-machine-ui": "^0.1.0-alpha.5",
     "sm-commons": "^0.0.23",
     "style-loader": "^2.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
