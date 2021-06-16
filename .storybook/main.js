@@ -1,8 +1,6 @@
+const { getStoriesPaths } = require("slice-machine-ui/helpers/storybook");
+
 module.exports = {
-  stories: [
-    "../slices/**/*.stories.[tj]s",
-    "../.slicemachine/assets/slices/**/*.stories.[tj]s",
-    "../components/**/*.stories.[tj]s",
-  ],
+  stories: [...getStoriesPaths(), "../components/**/*.stories.[tj]s"],
   addons: ["@storybook/preset-scss"],
 };
