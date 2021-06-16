@@ -1,0 +1,9 @@
+{
+  "slices": {
+    "BurgerDrums": {
+      "default-slice": {
+        "primary": {}
+      }
+    }
+  }
+}

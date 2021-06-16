@@ -1,0 +1,26 @@
+{
+  "id": "burger_drums",
+  "type": "SharedSlice",
+  "name": "BurgerDrums",
+  "description": "BurgerDrums",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "BurgerDrums",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
