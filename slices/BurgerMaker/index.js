@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import Credit from "../../components/Credit";
 
 import Matter from "matter-js";
 
@@ -10,7 +11,7 @@ function Slice({ slice }) {
   const [intro, setIntro] = useState(true);
 
   return (
-    <div className="burger-maker" onClick={() => setIntro(false)}>
+    <section className="burger-maker" onClick={() => setIntro(false)}>
       <h2 className="m-auto text-4xl text-center font-display md:text-6xl">
         {slice.primary.heading}
       </h2>
@@ -18,7 +19,13 @@ function Slice({ slice }) {
         <img src={LOGO} />
       </div>
       <BurgerMaker show={!intro} />
-    </div>
+      <Credit
+        author="Stephen Shaw"
+        twitter="https://twitter.com/shshaw"
+        codepen="https://codepen.io/shshaw/pen/eYveOdj"
+        youtube="https://youtu.be/45_tIn4Y1_M"
+      />
+    </section>
   );
 }
 

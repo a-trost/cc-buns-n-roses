@@ -1,0 +1,155 @@
+/*
+Built LIVE on Component Carousel: 
+https://www.youtube.com/watch?v=eEXhvtV4hkg
+
+Requires Chrome Canary with container queries enabled under chrome://flags (requires restart after enabling)
+
+Container query links:
+- Draft specs: https://drafts.csswg.org/css-contain-3/
+- CSSWG GitHub Project: https://github.com/w3c/csswg-drafts/projects/18
+- Primer on CQ: https://www.smashingmagazine.com/2021/05/complete-guide-css-container-queries/
+*/
+
+.food-menu,
+.food-menu * {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.food-menu {
+  --hs: 220, 15%;
+  --red: hsl(15, 90%, 45%);
+  --black-10: hsl(var(--hs), 10%);
+  --black-20: hsl(var(--hs), 20%);
+  --white: hsl(var(--hs), 85%);
+  min-height: 100vh;
+  background-color: var(--black-10);
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  position: relative;
+}
+.food-menu h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 8rem;
+}
+.food-menu h2,
+.food-menu li span {
+  --text-stroke: 0.02em;
+  line-height: 1.2;
+  font-family: "Metal Mania";
+  -webkit-text-stroke: var(--text-stroke) var(--red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    to bottom,
+    var(--red),
+    var(--black-10),
+    var(--red)
+  );
+}
+.food-menu ul {
+  list-style: none;
+  margin: 8vh auto;
+  padding: 0;
+  width: min(120ch, 100% - 4rem);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 30ch), 1fr));
+  gap: 2rem;
+  container-type: inline-size;
+  container-name: list;
+}
+.food-menu li {
+  container-type: inline-size;
+  container-name: list-item;
+}
+.food-menu .card {
+  background-color: var(--black-20);
+  color: var(--white);
+  box-shadow: 0 0 1rem -0.25rem black;
+  display: grid;
+  grid-template-areas: "cover title" "cover description";
+  grid-auto-columns: min(200px, 30%) 1fr;
+  align-items: center;
+}
+.food-menu .card img,
+.food-menu .card span {
+  grid-area: cover;
+}
+.food-menu .card span {
+  place-self: start;
+  transform: translate(-25%, -25%);
+}
+.food-menu .card h3 {
+  grid-area: title;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.food-menu .card p {
+  grid-area: description;
+}
+.food-menu .card h3,
+.food-menu .card p {
+  padding: 1rem;
+}
+.food-menu .card img {
+  width: 100%;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.food-menu .card span {
+  --text-stroke: 0.025em;
+  font-size: 3rem;
+  position: relative;
+  padding: 0 0.5ch;
+  z-index: 1;
+}
+.food-menu .card span,
+.food-menu .card span::before {
+  width: 2.25ch;
+  aspect-ratio: 1;
+}
+.food-menu .card span::before {
+  content: "";
+  background-color: var(--black-10);
+  box-shadow: 0 0 1rem -0.1rem var(--red);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  transform: skewY(-8deg);
+}
+
+@container list-item (max-width: 50ch) {
+  .food-menu .card {
+    grid-template-areas: "cover" "title" "description";
+    grid-auto-columns: unset;
+  }
+  .food-menu .card span {
+    place-self: end;
+    transform: translate(25%, 50%);
+  }
+}
+@container list-item (max-width: 40ch) {
+  img {
+    max-height: 25vh;
+  }
+}
+@container list (min-width: 80ch) and (max-width: 110ch) {
+  li:nth-child(3n + 1) {
+    grid-column: 1/-1;
+  }
+}
+.food-menu-sidebar {
+  display: grid;
+  grid-template-columns: minmax(33%, 30ch) 1fr;
+  gap: 2rem;
+}
+.food-menu-sidebar .food-menu {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.food-menu-sidebar .food-menu h2 {
+  font-size: 3rem;
+}

@@ -1,0 +1,17 @@
+{
+  "id": "burger_band",
+  "type": "SharedSlice",
+  "name": "BurgerBand",
+  "description": "BurgerBand",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "BurgerBand",
+      "primary": {},
+      "items": {}
+    }
+  ]
+}

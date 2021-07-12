@@ -1,0 +1,9 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "burger_band",
+    "items": [],
+    "primary": {}
+  }
+]

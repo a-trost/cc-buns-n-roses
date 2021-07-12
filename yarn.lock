@@ -4739,6 +4739,11 @@ cyclist@^1.0.1:
   resolved "https://registry.npmjs.org/cyclist/-/cyclist-1.0.1.tgz"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
+dat.gui@^0.7.7:
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/dat.gui/-/dat.gui-0.7.7.tgz#7f96dbd21621a76385203659aebfa264ee6ae89b"
+  integrity sha512-sRl/28gF/XRC5ywC9I4zriATTsQcpSsRG7seXCPnTkK8/EQMIbCu5NPMpICLGxX9ZEUvcXR3ArLYCtgreFoMDw==
+
 data-uri-to-buffer@3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-3.0.1.tgz"
@@ -6068,6 +6073,11 @@ graceful-fs@^4.1.3:
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
+
+gsap@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.7.0.tgz#ebadf467898ddf25011030090f0399cb0e292309"
+  integrity sha512-8JI7pcFj0pgMzwqChARiHf7EIIZp1QrQBP74M2p2NpQLiAeIhQsrJWIRiwmA2JWkkNe0I2BiQF5ZhJvpyJVJDA==
 
 gud@^1.0.0:
   version "1.0.0"
@@ -7656,20 +7666,20 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.npmjs.org/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-neverthrow@^4.1.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/neverthrow/-/neverthrow-4.2.1.tgz#c582dee4772528d15c9a170599c5382d366fd419"
-  integrity sha512-faWQGNqVQrXOuG8K7E0PRzsfBHzfVqeDX9nwawKDseuH/qEGIH02Nrq03OJOs5eTFML03xeol3otzagPoHyEPA==
+neverthrow@^4.2.1:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/neverthrow/-/neverthrow-4.2.2.tgz#cf333a8ab37398bc0c7a0349b9ea3c67de0ff880"
+  integrity sha512-zmJ1Oo368VlI7Fp2p+uD3ekkEEYzHr4ZlTE/4vfjA+TPtstftvJ3meIS2EReKy604wVXb+N+8XtwN98Mc1jJsA==
 
 next-compose-plugins@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.2.1.tgz#020fc53f275a7e719d62521bef4300fbb6fde5ab"
   integrity sha512-OjJ+fV15FXO2uQXQagLD4C0abYErBjyjE0I0FHpOEIB8upw0hg1ldFP6cqHTJBH1cZqy96OeR3u1dJ+Ez2D4Bg==
 
-next-slicezone@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/next-slicezone/-/next-slicezone-0.0.15.tgz#78503a9b95c73c1d13804915e14481b831ee6ce1"
-  integrity sha512-HS0oY/lEQy7L8TA6V3opZa7NreccCNBmPumiOHK5dAiW8RRD8fHte3u7EM6U243fGr0Ua+L47/pZs6OHxdRX1A==
+next-slicezone@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/next-slicezone/-/next-slicezone-0.1.0.tgz#04d6b9285f25805701bdace661448a31e0e8765d"
+  integrity sha512-Ytt8UERNf/UnSuXWx0fYeP8dlKN2pTZAccCaiiG+SLT49Y1spgnwp0fKZX47UoV5M6zvnZ5gWQnsOK8Ukunr6g==
   dependencies:
     slash "^3.0.0"
     sm-commons "^0.0.21"
@@ -9809,10 +9819,10 @@ slash@^2.0.0:
   resolved "https://registry.npmjs.org/slash/-/slash-2.0.0.tgz"
   integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
 
-slice-machine-ui@^0.1.0-alpha.5:
-  version "0.1.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.1.0-alpha.5.tgz#de4e41fd0437628cc823e08f791238885d4449d9"
-  integrity sha512-TJj0ASyv7JlW1e7yaObQrGMkWxT+HWFp8YPm5+G/tdegI46QqJEv6LzeVimZQxjWk4n4ENKAm6bEZMguvJ5SLQ==
+slice-machine-ui@^0.1.0-alpha.10:
+  version "0.1.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.1.0-alpha.10.tgz#aeac48a6a042d37211ca039e967835872682828c"
+  integrity sha512-HveXgrsVI8xnkQpXT3dDXLiFV70nkiBPJe8o4kke4TZIkJ7L6/wv9FWGCCjnr3CG8KZciFE6gIC0SNZ6F5slbw==
   dependencies:
     "@babel/register" "^7.11.5"
     "@reach/menu-button" "^0.10.5"
@@ -9838,7 +9848,7 @@ slice-machine-ui@^0.1.0-alpha.5:
     lorem-ipsum "^2.0.3"
     mime "^2.5.2"
     multer "^1.4.2"
-    neverthrow "^4.1.1"
+    neverthrow "^4.2.1"
     oembed-parser "^1.4.5"
     parse-domain "^3.0.2"
     prompts "^2.4.0"
@@ -10516,6 +10526,11 @@ theme-ui@^0.7.5:
     "@theme-ui/css" "0.7.5"
     "@theme-ui/mdx" "0.7.5"
     "@theme-ui/theme-provider" "0.7.5"
+
+three@^0.129.0:
+  version "0.129.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.129.0.tgz#f5e530bbc96eac5d5b4749cb5da886ef0d42f554"
+  integrity sha512-wiWio1yVRg2Oj6WEWsTHQo5eSzYpEwSBtPSi3OofNpvFbf26HFfb9kw4FZJNjII4qxzp0b1xLB11+tKkBGB1ZA==
 
 throttle-debounce@^3.0.1:
   version "3.0.1"
