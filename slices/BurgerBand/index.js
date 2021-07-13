@@ -307,7 +307,7 @@ const BurgerBand = ({ slice }) => {
       <div className="loader loader--loading">
         <p>Loading audio…</p>
       </div>
-      <div className="container">
+      <div className="burger-band__container">
         <div className="controls">
           <button className="start-stop">start ▶️ / stop ⏹</button>
           <button className="toggle" data-muted="true">
