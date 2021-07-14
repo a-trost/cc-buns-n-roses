@@ -316,6 +316,12 @@ const BurgerBand = ({ slice }) => {
         </div>
         <BandSvg svgRef={svgRef} />
       </div>
+      <Credit
+        author="Andy Rubin"
+        twitter="https://twitter.com/andyranged"
+        codepen="https://codepen.io/andyranged/pen/VwbYGmy"
+        youtube="https://youtu.be/Jlj7_BUbYcI"
+      />
     </section>
   );
 };
